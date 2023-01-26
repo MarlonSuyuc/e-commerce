@@ -3,6 +3,7 @@
 ![visual studio Code logo](./src/assets/img-e-commerce.png)
 
 ## Acerca/Descripcion
+#### No es responsive
 Esta aplicación es una aplicación de comercio electrónico completamente funcional  y los usuarios pueden ver un solo producto, pasar al carrito, en el carrito puede elimninar un producto y finalizar la compra y démas funcionalidades
 
 ### Tecnología utilizada:
