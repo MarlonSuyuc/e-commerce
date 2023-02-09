@@ -1,17 +1,20 @@
+import imgContact from "../../../assets/imageContact.jpg";
 const Contact = () => {
   const handleSubmit = (e) => {
     // e.preventDefault()
   }
-
   return (
     <div className='w-full'>
-      <section className='bg-hero-pattern w-full  h-[65vh] bg-center bg-cover flex flex-col justify-center gap-4'>
-        <h3 className='font-semibold text-6xl text-white ml-10'>
-          Contáctanos y obtenga nuestra ayuda
-        </h3>
-        <p className='text-3xl font-semibold text-white ml-10'>
-          Nos pondremos en contacto en breve
-        </p>
+      <section className='bg-gradient-to-bl from-pink-900/10 to-slate-900 w-full h-[65vh] flex flex-col justify-center gap-4 relative'>
+        <img src={imgContact} alt="img-Contact" className='w-full h-full object-cover absolute mix-blend-overlay' />
+        <div>
+          <h3 className='font-semibold text-5xl text-white ml-10'>
+            Contáctanos y obtenga nuestra ayuda
+          </h3>
+          <p className='text-3xl font-normal text-white ml-10'>
+            Nos pondremos en contacto en breve
+          </p>
+        </div>
       </section>
 
       <section className='w-3/5  mx-auto my-16'>
